@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                         // Gera código compatível com ECMAScript 6
+    "module": "CommonJS",                     // Usando CommonJS como sistema de módulos
+    "strict": true,                           // Ativa todas as verificações estritas
+    "esModuleInterop": true,                  // Permite importar módulos CommonJS com `import`
+    "outDir": "./dist",                       // Diretório de saída dos arquivos compilados
+    "rootDir": "./src",                       // Diretório de entrada do código fonte
+    "moduleResolution": "Node",               // Resolução de módulos no estilo Node
+    "skipLibCheck": true                      // Ignora checagem de tipos nas bibliotecas
+  },
+  "include": ["src/**/*"],                    // Inclui todos os arquivos na pasta src
+  "exclude": ["node_modules", "dist"]         // Exclui node_modules e dist da compilação
+}
